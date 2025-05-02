@@ -30,16 +30,17 @@ Ensure you have the following installed on your system:
    ```bash
    git clone <repository-url>
    cd <repository-folder>
+   ```
    
 2. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 3. Run the application:
-```bash
-streamlit run app.py
-```
+    ```bash
+    streamlit run app.py
+    ```
 4. Open the app in your browser. By default, it will be available at http://localhost:8501.
 
 
@@ -54,15 +55,16 @@ If you don't have sales data ready, you can download the example CSV template di
 - date/hour
 - category
 
-#### Dependencies
+## Dependencies
 The project uses the following Python libraries:
 
-- streamlit for building the web application.
-- pandas for data manipulation.
-- prophet for time series forecasting.
-- plotly for interactive visualizations.
-- Contributing
-- Contributions are welcome! Feel free to fork the repository and submit a pull request.
+- **streamlit** for building the web application.
+- **pandas** for data manipulation.
+- **prophet** for time series forecasting.
+- **plotly** for interactive visualizations.
 
-#### License
+## Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+## License
 This project is licensed under the MIT License. See the LICENSE file for details. ```
